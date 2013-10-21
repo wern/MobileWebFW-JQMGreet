@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile WebFW Shootout (JQM)</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Verwendung von CDN-Links -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/logik.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+<!-- Lokale Installation>
+<link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/logik.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script -->
+
+</head>
+<body>
+<div data-role="page" id="p1">
+<div data-role="header" data-id="head" data-position="fixed"><h1>Mobile WebFW Shootout</h1></div>
+<div data-role="content" style="text-align:center;">
+	<label for="nameEntered">Wie heisst Du?</label>
+	<input type="text" id="nameEntered"/>
+	<a href="#p2" data-transition="slide" data-role="button" id="next">weiter</a>
+	</div>
+	<div data-role="footer" data-id="foot" data-position="fixed"><h1>powered by JQM</h1></div>
+</div>
+	
+<div data-role="page" id="p2">
+<div data-role="header" data-id="head" data-position="fixed"><h1>Mobile WebFW Shootout</h1></div>
+<div data-role="content" style="text-align:center;">
+	<p>Hallo <span id="nameOutput">Du</span>!<br>
+	Deine Name r&uuml;ckw&auml;rts: <span id="nameReverse">uD</span><br>
+	<a href="http://www.mathema.de" target="_new"><img src="img/Beany.png"></img></a>
+	</p>
+	<a href="#p1"  data-role="button" data-transition="slide" data-direction="reverse">zur&uuml;ck</a></div>
+<div data-role="footer" data-id="foot" data-position="fixed"><h1>powered by JQM</h1></div>
+</div>
+
+</body>
+</html>
