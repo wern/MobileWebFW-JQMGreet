@@ -10,4 +10,4 @@ This repository contains everything you need to run the webapp:
 
 You can check out the deployed website using this Link: http://tiny.familie-eberling.de/mwf-jqmg
 
-Greeting image (resources/img/beany.png) courtesy of MATHEMA Software GmbH Erlangen (http://www.mathema.de).
+Greeting image (resources/img/Beany.png) courtesy of MATHEMA Software GmbH Erlangen (http://www.mathema.de).
