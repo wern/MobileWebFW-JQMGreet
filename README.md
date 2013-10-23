@@ -3,7 +3,7 @@ MobileWebFW-JQMGreet
 
 Mobile web framework shootout - jQuery mobile example (JQMGreet).
 
-This reporitory contains everything you need to run the webapp:
+This repository contains everything you need to run the webapp:
 
 1. clone this repository
 2. launch index.html to test the webapp (internet access is needed to load all required libs)
